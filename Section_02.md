@@ -1,4 +1,4 @@
-# Seccion 2
+# Seccion 2 [Volver](README.md)
 
 v1. Algoritmo: Secuencia de pasos ordenada que se realiza buscando solucionar un problema, mostraron el ejemplo de llegar al 20
 Variable: espacio en memoria que almacena informacion
