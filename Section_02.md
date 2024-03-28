@@ -21,7 +21,7 @@ v7. Se realiza y se explica la configuracion en el archivo package.json, en este
 4. Escribir numberOfCars = `numberOfCars + 1;`
 5. Analizar lo que pasa en cada punto.
 
-## Ejercicio 3.
+## Ejercicio 3. [video y paquete para descargar codigo](https://www.udemy.com/course/programacion-para-principiantes/learn/lecture/33300036#overview)
 1. Descargar paquete y descomprimirlo en escritorio
 2. Abrir terminal y colocar comando cd y arrastrar carpeta de escritorio a la terminal para luego dar enter
 3. Abrir el visual code y arrastrar la carpeta al visual studio y cambiarle el nombre a app.ts a app.js renombrando el archivo
@@ -39,3 +39,34 @@ v7. Se realiza y se explica la configuracion en el archivo package.json, en este
 3. Revisar el archivo package.json
 4. lanzar el comando npm run dev el cual ejecuta un script creado en el package.json
 5. lanzar el comando npm run dev:watch el cual ejecutan un script creado en el package.json pero diferente
+
+## Teoria y Ejercicio 5 Programacion Secuencial
+La programacion secuencial consiste en que se ejecuta el codigo en orden de arriba hacia abajo.
+En este caso se usan acumuladores de forma que se cambie el valor sin perderlo. ( `a += 1; a = a + 1; a++;` )
+1. Abrir archivo app.ts
+2. Adherir al inicio la linea `let numbersOfLine = 1;`
+3. Editar la linea `console.log( "Linea #", numbersOfLine );` y repetirla 5 veces
+4. Ejecutar el codigo
+5. y despues de cada `console.log()` colocar codigo para que muestre la linea #1, 2, 3...
+
+## 6 Teoria y Ejercicio Introduccion a Funciones
+0. Las funciones se realizan para organizar el codigo que se repite y mejorar la lectura del mismo.
+1. Crear funcion `function increaseLine() {}`
+2. Dentro del codigo cortar la parte donde se incrementa el acumulador `numberOfLine = numberOfLine + 1`
+3. Analizar el codigo y el resultado de la ejecucion
+4. Editar el codigo de la funcion y duplicar la linea
+5. Analizar el codigo y su resultado
+6. Editar el codigo y cambiarla asi `numberOfLine += 2`
+7. Analizar el codigo y su resultado
+
+## 7 Teoria y Ejercicio Errores
+0. Se muestra modificando let por LET un error, luego se cambia la variable numberOfLines por numberOfLine para ver ciertos errores y explica como se pueden dar tambien errores de logica realizando cambios en la funcion y en los valores.
+
+## 8 Teoria y Ejercicio Evitar repetir codigo
+0. Se cambia el nombre a la funcion por `prinLine()`
+1. Se cambia el codigo interno de la funcion para que imprima el numero de la linea (Ejercicio hacer que imprima la linea)
+
+## v18 Teoria y Ejercicio creacion de carpeta sections
+0. Se termina el ejercicio y se crea la carpeta sections y
+1. Se copia el codigo y se pone section-2.ts con el contenido correspondiente usando la palabra `export`.
+0. 
